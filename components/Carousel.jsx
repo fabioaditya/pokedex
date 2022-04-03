@@ -40,7 +40,7 @@ export default function Carousel() {
               src={s1}
               alt="Slide 1"
               layout="fill"
-              className="relative brightness-50"
+              className="relative brightness-50 rounded-xl"
             />
             <div className="absolute text-white font-bold flex items-center justify-center flex-col text-center w-auto md:w-screen md:ml-[-5vw] h-[280px] md:h-[650px]">
               <h1 className="md:text-5xl text-[25px] uppercase mb-[10px] md:mb-[30px]">
@@ -59,7 +59,7 @@ export default function Carousel() {
               src={s2}
               alt="Slide 2"
               layout="fill"
-              className="relative brightness-50"
+              className="relative brightness-50 rounded-xl"
             />
             <div className="absolute text-white font-bold flex items-center justify-center flex-col text-center w-auto md:w-screen h-[280px] md:h-[650px]">
               <h1 className="md:text-5xl text-[25px] uppercase mb-[10px]">
@@ -78,7 +78,7 @@ export default function Carousel() {
               src={s3}
               alt="Slide 3"
               layout="fill"
-              className="relative brightness-50"
+              className="relative brightness-50 rounded-xl"
             />
             <div className="absolute text-white font-bold flex items-center justify-center flex-col text-center w-auto md:w-screen md:ml-[-5vw] h-[280px] md:h-[650px]">
               <h1 className="md:text-5xl text-[25px] uppercase mb-[10px]">
