@@ -6,7 +6,7 @@ const Card = ({ id, image, name, type, _callback }) => {
   const router = useRouter();
 
   function handleClick() {
-    router.push(`/detail`);
+    router.push(`/detail/${name}`);
   }
 
   return (
