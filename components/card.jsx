@@ -6,8 +6,9 @@ const Card = ({ id, image, name, type, _callback }) => {
   const router = useRouter();
 
   function handleClick() {
-    router.push(`/detail/${name}`);
+    router.push(`/detail`);
   }
+
   return (
     <div
       className="bg-white rounded-xl mx-[3px] my-[3px] md:mx-[6px] md:my-[6px] lg:mx-[9px] lg:my-[9px] shadow-lg hover:bg-slate-300"
